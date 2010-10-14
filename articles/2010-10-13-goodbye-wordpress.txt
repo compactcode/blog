@@ -14,23 +14,25 @@ closely resembling that of the general internet riff raff.
 
 #### It was harder than I thought
 
-I installed Wordpress on a [brand new ubuntu vps server](http://www.slicehost.com/). This of course meant that I was responsible for installing a
-database, a mail server, a web server and Wordpress. It's not that these tasks are especially difficult, but if they
-aren't something you do a lot you end up wasting a lot of time figuring out less obvious details. For example, your ip
-address is likely to be automatically added to a [spam blacklist](http://articles.slicehost.com/2010/1/20/removing-a-mail-server-from-the-spamhaus-pbl).
+I installed Wordpress on a [brand new ubuntu vps server](http://www.slicehost.com/). This of course meant that I was
+responsible for installing a database, a mail server, a web server and Wordpress. It's not that these tasks are
+especially difficult, but if they aren't something you do a lot you end up wasting a lot of time figuring out less
+obvious details. For example, your ip address is likely to be automatically added to a
+[spam blacklist](http://articles.slicehost.com/2010/1/20/removing-a-mail-server-from-the-spamhaus-pbl).
 
 #### I found something easier
 
 One day I discovered a very [interesting post](http://www.usabilitypost.com/2010/02/06/blogging-simplified/) about a
-super simple, super fast blogging tool called [toto](http://cloudhead.io/toto). The entire project is only a few hundred lines of code which means
-that even my poor pea brain can actually understand it. Combine that with the fact I'm currently working as web
-developer and know how to work with html, I've got something I can easily personalize. 
+super simple, super fast blogging tool called [toto](http://cloudhead.io/toto). The entire project is only a few hundred
+lines of code which means that even my poor pea brain can actually understand it. Combine that with the fact I'm
+comfortable with html, I've got something I can easily personalize. 
 
-The other advantage of toto is that it is written using Ruby, which means it can be hosted is a piece of cake. Just
-create a free account on [heroku](http://heroku.com/) and you are 
+The other advantage of toto is that it is written using Ruby, which means that hosting is a piece of cake. I can just
+create a free account on [heroku](http://heroku.com/) and publish articles without needing to worry about servers or
+maintenance.
 
 #### I decided to use it
 
-I decided to convert this blog over as soon as I had something new to post. I didn't see much value in migrating the
-old posts into toto so I just [dumped them](http://compacted.wordpress.com/2010/) on the free wordpress.com service and set up some permanent redirect rules
-for the old posts.
+I decided to convert this blog over as soon as I had something worthwhile to post. I didn't see much value in migrating the
+old posts into toto so I just [dumped them](http://compacted.wordpress.com/2010/) on the free wordpress.com service
+and set up some permanent redirect rules.
