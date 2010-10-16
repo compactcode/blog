@@ -16,7 +16,7 @@ class Blog
       toto = Toto::Server.new do
         set :author, "shanon"
         set :title,  "compactcode"
-        set :url,    "compactblog.heroku.com"
+        set :url,    "compactcode.com"
         set :disqus, "compact"
         set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
       end
