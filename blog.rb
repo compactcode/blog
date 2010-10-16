@@ -8,6 +8,7 @@ class Blog
       use Rack::CommonLogger
 
       use Rack::Rewrite do
+        r301 '/feed/',            '/index.xml'
         r301 %r{/index.php/(.*)}, 'http://compacted.wordpress.com/$1'
         r301 %r{/2010/04/(.*)},   'http://compacted.wordpress.com/2010/04/$1'
         r301 %r{/2009/(.*)},      'http://compacted.wordpress.com/2009/$1'
