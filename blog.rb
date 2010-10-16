@@ -13,13 +13,15 @@ class Blog
         r301 %r{/2009/(.*)},      'http://compacted.wordpress.com/2009/$1'
       end
       
-      run Toto::Server.new do
+      toto = Toto::Server.new do
         set :author, "shanon"
         set :title,  "compactcode"
         set :url,    "compactblog.heroku.com"
         set :disqus, "compact"
         set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
       end
+
+      run toto
     }.to_app
   end
 end
