@@ -3,29 +3,29 @@ title: Goodbye Wordpress
 date: 13/10/2010
 
 When I started this blog just over a year ago I made the rather foolish decision to host it on my own
-[Wordpress](http://wordpress.org/) instance. It sucked up hours of my time, reduced the weight of my wallet and generally left me more stressed than I should have been.
+[Wordpress](http://wordpress.org/) instance. I wasted hours of my time, spent hundreds of dollars and generally ended up more stressed than I ought to be.
 
 #### I wanted something personal
 
-At the time I decided to start the blog I knew there were a few options available that would have been much easier to
-set up. blogger.com was an option but was afflicted with the curse of being butt ugly in every regard. wordpress.com
-was a better option but had a limited number of themes it supported. I couldn't stomach my sphere of creativity so
-closely resembling that of the general internet riff raff. 
+At the time I decided to start the blog I knew there were several options available that would have been easier to
+set up. [blogger](http://www.blogger.com) was an option, as was [wordpress.com](http://wordpress.com). Both offered
+a limited number of unimpressive, dirt common themes built for the riff raff. I decided that these options were too
+impersonal, too lacking in creativity. I wanted something I could customize, so I went with a custom wordpress install.
 
 #### It was harder than I thought
 
-I installed Wordpress on a [brand new ubuntu vps server](http://www.slicehost.com/). This of course meant that I was
-responsible for installing a database, a mail server, a web server and Wordpress. It's not that these tasks are
-especially difficult, but if they aren't something you do a lot you end up wasting a lot of time figuring out less
-obvious details. For example, your ip address is likely to be automatically added to a
+I installed Wordpress on a brand new ubuntu vps server. This of course meant that I was responsible for installing a
+database, a mail server, a web server and Wordpress. It's not that these tasks are especially difficult, but if they
+aren't something you do a lot you end up wasting a lot of time figuring out less obvious details. For example, your
+ip address is likely to be automatically added to a
 [spam blacklist](http://articles.slicehost.com/2010/1/20/removing-a-mail-server-from-the-spamhaus-pbl).
 
 #### I found something easier
 
-One day I discovered a very [interesting post](http://www.usabilitypost.com/2010/02/06/blogging-simplified/) about a
+One day I discovered a very [interesting post](http://fadeyev.net/2010/05/10/getting-started-with-toto/) about a
 super simple, super fast blogging tool called [toto](http://cloudhead.io/toto). The entire project is only a few hundred
-lines of code which means that even my poor pea brain can actually understand it. Combine that with the fact I'm
-comfortable with html, I've got something I can easily personalize. 
+lines of code which means that even my poor pea brain can actually understand it. If I can completely understand my
+blogging tool, I can completely customize it. 
 
 The other advantage of toto is that it is written using Ruby, which means that hosting is a piece of cake. I can just
 create a free account on [heroku](http://heroku.com/) and publish articles without needing to worry about servers or
@@ -33,6 +33,11 @@ maintenance.
 
 #### I decided to use it
 
-I decided to convert this blog over as soon as I had something worthwhile to post. I didn't see much value in migrating the
-old posts into toto so I just [dumped them](http://compacted.wordpress.com/2010/) on the free wordpress.com service
-and set up some permanent redirect rules.
+I took the plunge and decided to switch over to toto once I had something worthwhile to post. Since that was unlikely to
+happen anytime soon so went ahead and did it anyway. I didn't see much value in
+migrating the old posts so I just [moved them](http://compacted.wordpress.com/2010/) and set up some permanent redirect
+rules.
+
+Blogging is good again. I have a simple tool that lets me focus on my content, lets me customize it and gets out of my
+way. My only remaining dillema is whether I should have used tumblr instead. Ahhh well, perhaps that will make for a
+good post next year. 
