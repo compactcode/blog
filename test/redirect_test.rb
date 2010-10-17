@@ -21,6 +21,12 @@ class RedirectTest < Test::Unit::TestCase
     assert_equal "http://example.org/index.xml", last_request.url
   end
 
+  def test_old_wordpress_rss_feed_without_trailing_slash_is_redirected
+    get "/feed"
+    follow_redirect!
+    assert_equal "http://example.org/index.xml", last_request.url
+  end
+
   def test_old_wordpress_articles_are_redirected
     get "/2009/09/introducing-compaction/"
     follow_redirect!
