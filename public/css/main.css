@@ -10,21 +10,6 @@ body {
 header, footer, section, article {
 	display: block;
 }
-#content {
-}
-#by {
-	font-style: italic;
-  margin-right: 5px;
-	font-size: 28px;
-}
-#caption {
-	position: absolute;
-	font-size: 24px;
-	margin: -135px 0 0 70px;
-}
-#path {
-	color: #b53131;
-}
 .date {
   font-style: italic;
   float: right;
