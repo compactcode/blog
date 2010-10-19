@@ -3,15 +3,11 @@
     <h1><%= title %></h1>
     <span class="date"><%= date %></span>
   </header>
-
-  <section class="content">
-    <%= body %>
-  </section>
-
-  <section class="comments">
-      <div id="disqus_thread"></div>
-  </section>
-
+  <%= body %>
+  <article class="comments">
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+  </article>
 </article>
 
 <script type="text/javascript" src="http://disqus.com/forums/<%= @config[:disqus] %>/embed.js"> </script>
