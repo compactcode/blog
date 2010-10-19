@@ -5,14 +5,14 @@ date: 13/10/2010
 When I started this blog just over a year ago I made the rather foolish decision to host it on my own
 [Wordpress](http://wordpress.org/) instance. I wasted hours of my time, spent hundreds of dollars and generally ended up more stressed than I ought to be.
 
-#### I wanted something personal
+** I wanted something personal **
 
 At the time I decided to start the blog I knew there were several options available that would have been easier to
 set up. [blogger](http://www.blogger.com) was an option, as was [wordpress.com](http://wordpress.com). Both offered
 a limited number of unimpressive, dirt common themes built for the riff raff. I decided that these options were too
 impersonal, too lacking in creativity. I wanted something I could customize, so I went with a custom wordpress install.
 
-#### It was harder than I thought
+** It was harder than I thought **
 
 I installed Wordpress on a brand new ubuntu vps server. This of course meant that I was responsible for installing a
 database, a mail server, a web server and Wordpress. It's not that these tasks are especially difficult, but if they
@@ -20,7 +20,7 @@ aren't something you do a lot you end up wasting a lot of time figuring out less
 ip address is likely to be automatically added to a
 [spam blacklist](http://articles.slicehost.com/2010/1/20/removing-a-mail-server-from-the-spamhaus-pbl).
 
-#### I found something easier
+** I found something easier **
 
 One day I discovered a very [interesting post](http://fadeyev.net/2010/05/10/getting-started-with-toto/) about a
 super simple, super fast blogging tool called [toto](http://cloudhead.io/toto). The entire project is only a few hundred
@@ -31,7 +31,7 @@ The other advantage of toto is that it is written using Ruby, which means that h
 create a free account on [heroku](http://heroku.com/) and publish articles without needing to worry about servers or
 maintenance.
 
-#### I decided to use it
+** I decided to use it **
 
 I took the plunge and decided to switch over to toto once I had something worthwhile to post. Since that was unlikely to
 happen anytime soon so went ahead and did it anyway. I didn't see much value in
