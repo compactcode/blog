@@ -1,5 +1,7 @@
 <section id="articles">
-  <h2>Articles</h2>
+  <header>
+    <h2>Articles</h2>
+  </header>
   <% for article in articles[0...3] %>
     <article class="post">
       <header>
@@ -13,7 +15,11 @@
 </section>
 
 <section id="archives">
-  <h2>Archives</h2>
-  <%= archives[3..-1] %>
+  <header>
+    <h2>Archives</h2>
+  </header>
+  <div>
+    <a href="http://compacted.wordpress.com">The Graveyard</a>
+  </div>
 </section>
 
