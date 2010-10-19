@@ -28,11 +28,17 @@ body > header {
 	padding-top: 20px;
 	padding-bottom: 40px;
 }
-body > header > h1 {
-	border-left: 30px solid black;
-	padding-left: 30px;
+#title {
   font-size: 72px;
   font-weight: normal;
+}
+#title, #slogan {
+	border-left: 30px solid black;
+	padding-left: 30px;
+}
+#slogan {
+  padding-top: 10px;
+  text-align: right;
 }
 body > section {
   margin-bottom: 20px;
