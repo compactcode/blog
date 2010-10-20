@@ -1,11 +1,16 @@
-<h1><%= @path %></h1>
-<ul>
-  <% if archives.length > 0 %>
-    <% for entry in archives %>
-      <li>
-        <a href="<%= entry.path %>"><%= entry.title %></a>
-      </li>
-    <% end %>
-  <% end %>
-</ul>
+<section>
+<header class="prefix_2 grid_10">
+  <h1>Archives</h1>
+</header>
+<div class="clear"></div>
+<% for entry in archives %>
+  <div class="grid_2">
+    <%= entry.date %>
+  </div>
+  <div class="grid_10">
+    <a href="<%= entry.path %>"><%= entry.title %></a>
+  </div>
+  <div class="clear"></div>
+<% end %>
+</section>
 

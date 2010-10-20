@@ -1,0 +1,44 @@
+/* Typography */
+
+#title h1 {
+  font-size: 50px;
+}
+
+#title p {
+  font-size: 25px;
+}
+
+/* Style */
+
+body {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#title {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  margin-bottom: 30px;
+}
+header h1 {
+  margin-bottom: 0px;
+}
+header h1 a {
+  text-decoration: none;
+}
+header h1 a:hover {
+	text-decoration: underline;
+}
+article footer ul {
+  list-style: none;
+}
+article footer ul li {
+  margin-left: 0px;
+}
+section {
+  padding-bottom: 20px;
+}
+#footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #333;
+}

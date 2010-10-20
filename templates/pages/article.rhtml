@@ -1,16 +1,22 @@
 <article>
-  <header>
+  <header class="prefix_2 grid_10">
     <h2><%= title %></h2>
   </header>
-  <footer>
+  <div class="clear"></div>
+  <footer class="grid_2">
     <ul>
       <li><%= article.date %></li>
     </ul>
   </footer>
-  <%= body %>
+  <div class="grid_10">
+    <%= body %>
+  </div>
+  <div class="clear"></div>
   <article>
-    <h3>Comments</h3>
-    <div id="disqus_thread"></div>
+    <header class="grid_2">
+      <h3>Comments</h3>
+    </header>
+    <div id="disqus_thread" class="grid_10"></div>
   </article>
 </article>
 
