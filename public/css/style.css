@@ -29,8 +29,13 @@ header h1 a {
 header h1 a:hover {
 	text-decoration: underline;
 }
+article header {
+  border-bottom: 1px dotted #333;
+  margin-bottom: 10px;
+}
 article header a {
   color: #B83000;
+  font-weight: normal;
   text-decoration: none
 }
 article header a:hover {
