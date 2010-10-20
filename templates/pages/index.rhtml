@@ -1,11 +1,11 @@
 <% for article in articles[0...3] %>
-  <article class="post">
+  <article>
     <header>
       <h3><a href="<%= article.path %>"><%= article.title %></a></h3>
     </header>
     <footer>
       <ul>
-        <li class="date"><%= article.date %></li>
+        <li><%= article.date %></li>
       </ul>
     </footer>
     <%= article.summary %>
