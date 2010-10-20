@@ -1,25 +1,11 @@
-<section id="articles">
-  <header>
-    <h2>Articles</h2>
-  </header>
-  <% for article in articles[0...3] %>
-    <article class="post">
-      <header>
-        <h3><a href="<%= article.path %>"><%= article.title %></a></h3>
-        <span class="date"><%= article.date %></span>
-      </header>
-      <%= article.summary %>
-      <a href="<%= article.path %>">read on &raquo;</a>
-    </article>
-  <% end %>
-</section>
-
-<section id="archives">
-  <header>
-    <h2>Archives</h2>
-  </header>
-  <div>
-    <a href="http://compacted.wordpress.com">The Graveyard</a>
-  </div>
-</section>
+<% for article in articles[0...3] %>
+  <article class="post">
+    <header>
+      <h3><a href="<%= article.path %>"><%= article.title %></a></h3>
+      <span class="date"><%= article.date %></span>
+    </header>
+    <%= article.summary %>
+    <a href="<%= article.path %>">read on &raquo;</a>
+  </article>
+<% end %>
 
