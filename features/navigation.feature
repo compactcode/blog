@@ -5,5 +5,5 @@ Feature: Users can navigate around the various pages
 
   Scenario: Title links to the home page
     Given I am on the about page
-    And I follow "compact code" within "h1#title"
+    And I follow "compact code" within "#title"
     Then I should be on the home page
