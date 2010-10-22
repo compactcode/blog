@@ -16,6 +16,9 @@ module NavigationHelpers
     when /the about\s?page/
       '/about'
 
+    when /the archive\s?page/
+      '/archives'
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #

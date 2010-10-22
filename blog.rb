@@ -16,7 +16,7 @@ class Blog
       end
       
       toto = Toto::Server.new do
-        set :author, "shanon"
+        set :author, "Shanon McQuay"
         set :title,  "compactcode"
         set :url,    "compactcode.com"
         set :disqus, "compact"
