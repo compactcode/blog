@@ -55,6 +55,9 @@ article footer ul li {
 section {
   padding-bottom: 20px;
 }
+section a {
+  color: #B83000;
+}
 #footer {
   padding-top: 30px;
   padding-bottom: 30px;

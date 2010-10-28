@@ -18,6 +18,11 @@ Feature: Users can navigate around the various pages
     And I follow "About" within "nav"
     Then I should be on the about page
 
+  Scenario: The home page links to the arhives page
+    Given I am on the home page
+    And I follow "Archives" within "nav"
+    Then I should be on the archive page
+
   Scenario: The home page links to the rss feed
     Given I am on the home page
     And I follow "Subscribe" within "nav"
