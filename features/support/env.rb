@@ -6,7 +6,7 @@ require File.join(File.dirname(__FILE__), '..', '..', 'blog.rb')
 
 require 'capybara'
 require 'capybara/cucumber'
-require 'spec'
+require 'rspec'
 
 Capybara.default_selector = :css
 Capybara.app = Blog.new.to_app
@@ -14,8 +14,8 @@ Capybara.app = Blog.new.to_app
 
 class BlogWorld
   include Capybara
-  include Spec::Expectations
-  include Spec::Matchers
+  include RSpec::Expectations
+  include RSpec::Matchers
 end
 
 World do
