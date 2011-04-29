@@ -1,0 +1,17 @@
+--- 
+title: VirtualBox and the 2011 MacBook Pro
+date: 29/04/2011
+
+I really like [VirtualBox](http://www.virtualbox.org/). Unfortunately it doesn't like my shiny new [MacBook Pro](http://www.apple.com/macbookpro/).
+
+When I try to create a Ubuntu VM with VirtualBox 4.0.4 the OS install process runs at a snails pace. My 2009 MacBook had no such issues, was I doing something wrong?
+
+I did a bit of searching and found an [open ticket](http://www.virtualbox.org/ticket/8474) on the VirtualBox bug tracker. Apple [updated](http://support.apple.com/kb/HT3770) OS X installs on new machines to use the 64-bit kernel by default. Unfortunately 64-bit support for OS X isn't quite there in VirtualBox.
+
+So what can you do if you find yourself in this situation? Well, you can either wait:
+
+> Today we released VirtualBox 4.0.6 but unfortunately it does NOT contain a fix for this problem yet. I want to apologize for that. There are some technical problems which have to be resolved. The next maintenance release should fix this annoying bug and we hope that this will NOT take another 8 weeks. Thanks for your understanding!
+
+Or you can switch OS X back to the 32-bit kernel
+
+    sudo systemsetup -setkernelbootarchitecture i386

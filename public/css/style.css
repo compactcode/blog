@@ -21,6 +21,15 @@ a {
 a:hover {
   text-decoration: underline;
 }
+blockquote {
+  margin-left: 30px;
+  color: #8C8C8C;
+  border-left: 2px solid #8C8C8C;
+  padding-left: 1em;
+}
+code {
+  margin-left: 30px; 
+}
 #menu ul {
   list-style: none;
 }
@@ -30,8 +39,8 @@ a:hover {
   margin-right: 15px;
 }
 #title {
-  border-top: 1px solid #333;
-  border-bottom: 1px solid #333;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
   margin-top: 10px;
   margin-bottom: 30px;
 }
@@ -42,7 +51,7 @@ header h1 {
   margin-bottom: 0px;
 }
 article header {
-  border-bottom: 1px dotted #333;
+  border-bottom: 1px dotted #000000;
   margin-bottom: 10px;
 }
 article header a {
@@ -58,5 +67,5 @@ article footer ul li {
   margin-top: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
-  border-top: 1px solid #333;
+  border-top: 1px solid #000000;
 }
