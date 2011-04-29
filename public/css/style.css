@@ -15,7 +15,7 @@ body {
   margin-bottom: 30px;
 }
 a {
-  color: black;
+  color: #B83000;
   text-decoration: none;
 }
 a:hover {
@@ -35,6 +35,9 @@ a:hover {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+#title a {
+  color: #000000;
+}
 header h1 {
   margin-bottom: 0px;
 }
@@ -43,7 +46,6 @@ article header {
   margin-bottom: 10px;
 }
 article header a {
-  color: #B83000;
   font-weight: normal;
 }
 article footer ul {
@@ -51,9 +53,6 @@ article footer ul {
 }
 article footer ul li {
   margin-left: 0px;
-}
-section a {
-  color: #B83000;
 }
 #footer {
   margin-top: 20px;
