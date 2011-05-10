@@ -2,7 +2,7 @@
 title: VirtualBox and the 2011 MacBook Pro
 date: 29/04/2011
 
-I really like [VirtualBox](http://www.virtualbox.org/). Unfortunately it doesn't like my shiny new [MacBook Pro](http://www.apple.com/macbookpro/).
+I really like [VirtualBox](http://www.virtualbox.org/). Unfortunately it doesn't like my shiny new [MacBook Pro](http://www.apple.com/macbookpro/). ~
 
 When I try to create a Ubuntu VM with VirtualBox 4.0.4 the OS install process runs at a snails pace. My 2009 MacBook had no such issues, was I doing something wrong?
 
