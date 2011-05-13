@@ -33,12 +33,7 @@ code {
   margin-left: 30px; 
 }
 #menu ul {
-  list-style: none;
-}
-#menu li {
-  float: left;
-  margin-left: 0px;
-  margin-right: 15px;
+  @include horizontal-list(8px);
 }
 header h1 {
   margin-bottom: 0px;
@@ -52,10 +47,7 @@ article {
     }
   }  
   footer ul {
-    list-style: none;
-    li {
-      margin-left: 0px;
-    }
+    @include inline-list;
   }
 }
 #footer {
