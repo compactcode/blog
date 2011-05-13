@@ -4,8 +4,9 @@ gem "rack-rewrite"
 gem "toto"
 
 group :test do
-  gem "cucumber"
   gem "capybara"
+  gem "compass"
+  gem "cucumber"
   gem "rack-test"
   gem "rspec"
 end
