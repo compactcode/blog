@@ -1,15 +1,18 @@
-/* Typography */
-
-#title h1 {
-  font-size: 50px;
+#title {
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 25px;
+  }
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  a {
+    color: #000000;
+  }
 }
-
-#title p {
-  font-size: 25px;
-}
-
-/* Style */
-
 body {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -38,30 +41,23 @@ code {
   margin-left: 0px;
   margin-right: 15px;
 }
-#title {
-  border-top: 1px solid #000000;
-  border-bottom: 1px solid #000000;
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
-#title a {
-  color: #000000;
-}
 header h1 {
   margin-bottom: 0px;
 }
-article header {
-  border-bottom: 1px dotted #000000;
-  margin-bottom: 10px;
-}
-article header a {
-  font-weight: normal;
-}
-article footer ul {
-  list-style: none;
-}
-article footer ul li {
-  margin-left: 0px;
+article {
+  header {
+    border-bottom: 1px dotted #000000;
+    margin-bottom: 10px;
+    a {
+      font-weight: normal;
+    }
+  }  
+  footer ul {
+    list-style: none;
+    li {
+      margin-left: 0px;
+    }
+  }
 }
 #footer {
   margin-top: 20px;
