@@ -6,6 +6,7 @@ gem "toto"
 group :test do
   gem "capybara"
   gem "compass"
+  gem "compass-colors"
   gem "cucumber"
   gem "rack-test"
   gem "rspec"
