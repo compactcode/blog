@@ -4,9 +4,6 @@
   h1 {
     font-size: 50px;
   }
-  p {
-    font-size: 25px;
-  }
   a {
     color: #000000;
   }
@@ -31,9 +28,7 @@ code {
 #menu ul {
   @include horizontal-list(8px);
 }
-header h1 {
-  margin-bottom: 0px;
-}
+
 article {
   header {
     border-bottom: 1px dotted #000000;
