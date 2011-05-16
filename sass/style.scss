@@ -1,46 +1,11 @@
 @import "compass";
   
-#title {
-  h1 {
-    font-size: 50px;
-  }
-  a {
-    color: #000000;
-  }
-}
-body {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 a {
-  color: #B83000;
   @include hover-link;
 }
-blockquote {
-  margin-left: 30px;
-  color: #8C8C8C;
-  border-left: 2px solid #8C8C8C;
-  padding-left: 1em;
-}
-code {
-  margin-left: 30px; 
-}
-#menu ul {
+nav ul {
   @include horizontal-list(8px);
 }
-
-article {
-  header {
-    border-bottom: 1px dotted #000000;
-    margin-bottom: 10px;
-    a {
-      font-weight: normal;
-    }
-  }  
-  aside ul {
-    @include inline-list;
-  }
-}
-#footer {
-  padding-top: 30px;
+article aside ul {
+  @include inline-list;
 }
