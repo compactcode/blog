@@ -7,13 +7,11 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <title>compact code - less code, more features</title>
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/text.css">
-    <link rel="stylesheet" href="/css/960.css">
+    <link rel="stylesheet" href="/css/layout.css">
     <link rel="stylesheet" href="/css/style.css">
   </head>
-  <body class="container_12">
-    <nav id="menu" class="grid_12">
+  <body>
+    <nav>
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
@@ -21,15 +19,11 @@
         <li><a href="/index.xml">Subscribe</a></li>
       </ul>
     </nav>
-    <header id="title" class="grid_12">
+    <header>
       <h1><a href="/">compact code</a></h1>
     </header>
-    <div class="clear"></div>
-    <div id="content">
-      <%= yield %>
-    </div>
-    <div class="clear"></div>
-    <footer id="footer" class="grid_12">
+    <%= yield %>
+    <footer>
       powered by <a href="http://cloudhead.io/toto">toto</a>
     </footer>
     <script type="text/javascript" src="/js/analytics.js"></script>

@@ -1,0 +1,33 @@
+@import "compass";
+@import "compass/reset";
+@import "blueprint/grid";
+
+nav ul {
+  @include horizontal-list;
+}
+
+body {
+  @include container;
+  nav, header, footer {
+    @include column(24, true);
+  }
+  article, section {
+    header {
+      @include prepend(4);
+      @include column(20, true);
+    }
+    aside {
+      @include column(4);
+    }
+    div {
+      @include column(20, true); 
+    }
+    div.noaside {
+      @include prepend(4);
+      @include column(20, true);
+    }
+  }
+}
+
+
+

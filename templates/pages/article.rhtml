@@ -1,24 +1,21 @@
 <article>
-  <header class="prefix_2 grid_10">
+  <header>
     <h2><a href="<%= article.path %>"><%= article.title %></a></h2>
   </header>
-  <div class="clear"></div>
-  <aside class="grid_2">
+  <aside>
     <ul>
       <li><%= article.date %></li>
     </ul>
   </aside>
-  <div class="grid_10">
+  <div>
     <%= body %>
   </div>
-  <div class="clear"></div>
-  <article>
-    <header class="prefix_2 grid_10">
+  <section>
+    <header>
       <h3>Comments</h3>
     </header>
-    <div class="clear"></div>
-    <div id="disqus_thread" class="prefix_2 grid_10"></div>
-  </article>
+    <div id="disqus_thread" class="noaside"></div>
+  </section>
 </article>
 
 <script type="text/javascript" src="http://disqus.com/forums/<%= @config[:disqus] %>/embed.js"> </script>

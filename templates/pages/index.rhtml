@@ -1,18 +1,16 @@
 <% for article in articles[0...3] %>
   <article>
-    <header class="prefix_2 grid_10">
+    <header>
       <h2><a href="<%= article.path %>"><%= article.title %></a></h2>
     </header>
-    <div class="clear"></div>
-    <aside class="grid_2">
+    <aside>
       <ul>
         <li><%= article.date %></li>
       </ul>
     </aside>
-    <div class="grid_10">
+    <div>
       <%= article.summary %>
     </div>
-    <div class="clear"></div>
   </article>
 <% end %>
 
