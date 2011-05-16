@@ -1,5 +1,19 @@
 @import "compass";
-  
+
+@include establish-baseline;
+
+h1 {
+ @include adjust-font-size-to($base-font-size * 3); 
+}
+
+h2 {
+ @include adjust-font-size-to($base-font-size * 1.5); 
+}
+
+h3 {
+ @include adjust-font-size-to($base-font-size * 1.25); 
+}
+
 a {
   @include hover-link;
 }
