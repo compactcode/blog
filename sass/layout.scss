@@ -6,7 +6,7 @@ nav ul {
   @include horizontal-list;
 }
 
-body {
+#page {
   @include container;
   nav, header, footer {
     @include column(24, true);
