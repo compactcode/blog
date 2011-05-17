@@ -22,7 +22,6 @@ class Blog
         set :author, "Shanon McQuay"
         set :title,  "compactcode"
         set :url,    "compactcode.com"
-        set :disqus, "compact"
         set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
       end
 

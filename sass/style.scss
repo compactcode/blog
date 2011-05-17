@@ -16,10 +16,6 @@ h2 {
    @include multiply-baseline(1.5); 
 }
 
-h3 {
-  @include multiply-baseline(1.25); 
-}
-
 p {
   @include multiply-baseline(1); 
 }
