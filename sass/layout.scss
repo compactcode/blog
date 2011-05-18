@@ -20,7 +20,8 @@ nav ul {
       @include column(4);
     }
     div {
-      @include column(20, true); 
+      @include column(20, true);
     }
+    @include pie-clearfix;
   }
 }

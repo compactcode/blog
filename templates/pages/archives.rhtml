@@ -5,7 +5,8 @@
   <% for entry in archives %>
     <article>
       <aside>
-        <%= entry.date %>
+        <span class="month"><%= entry.date.strftime("%B") %></span>
+        <span class="year"><%= entry.date.year %></span>
       </aside>
       <div>
         <a href="<%= entry.path %>"><%= entry.title %></a>
@@ -15,7 +16,8 @@
 
   <article>
     <aside>
-      April 19th 2010
+      <span class="month">April</span>
+      <span class="year">2010</span>
     </aside>
     <div>
       <a href="http://compacted.wordpress.com/2010/04/19/google-collections-made-easier/">Google collections made easier</a>
@@ -24,7 +26,8 @@
 
   <article>
     <aside>
-      August 26th 2009
+      <span class="month">August</span>
+      <span class="year">2009</span>
     </aside>
     <div>
       <a href="http://compacted.wordpress.com/2009/08/26/unit-testing-flex-mocking/">Unit Testing Flex - Mocking</a>
@@ -33,7 +36,8 @@
 
   <article>
     <aside>
-      August 19th 2009
+      <span class="month">August</span>
+      <span class="year">2009</span>
     </aside>
     <div>
       <a href="http://compacted.wordpress.com/2009/08/19/flex-unit-testing-alerts/">Unit Testing Flex - Alerts</a>
@@ -42,7 +46,8 @@
 
   <article>
     <aside>
-      August 14th 2009
+      <span class="month">August</span>
+      <span class="year">2009</span>
     </aside>
     <div>
       <a href="http://compacted.wordpress.com/2009/08/14/unit-testing-flex-states/">Unit Testing Flex - States</a>
@@ -51,7 +56,8 @@
 
   <article>
     <aside>
-      August 12th 2009
+      <span class="month">August</span>
+      <span class="year">2009</span>
     </aside>
     <div>
       <a href="http://compacted.wordpress.com/2009/08/12/unit-testing-flex-more-mxml/">Unit Testing Flex - More MXML</a>
@@ -60,7 +66,8 @@
 
   <article>
     <aside>
-      August 7th 2009
+      <span class="month">August</span>
+      <span class="year">2009</span>
     </aside>
     <div>
       <a href="http://compacted.wordpress.com/2009/08/07/unit-testing-flex-%e2%80%93-mxml/">Unit Testing Flex - MXML</a>
@@ -69,7 +76,8 @@
 
   <article>
     <aside>
-      August 5th 2009
+      <span class="month">August</span>
+      <span class="year">2009</span>
     </aside>
     <div>
       <a href="http://compacted.wordpress.com/2009/08/05/six-months-of-test-driven-development/">Six months of Test Driven Development</a>

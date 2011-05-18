@@ -1,11 +1,10 @@
 <article>
   <header>
-    <h2><a href="<%= article.path %>"><%= article.title %></a></h2>
+    <h2><%= article.title %></h2>
   </header>
   <aside>
-    <ul>
-      <li><p><%= article.date %></p></li>
-    </ul>
+    <span class="month"><%= article.date.strftime("%B") %></span>
+    <span class="year"><%= article.date.year %></span>
   </aside>
   <div>
     <%= body %>

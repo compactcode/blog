@@ -1,24 +1,8 @@
+@import "base";
 @import "compass";
 @import "colour";
 
-@mixin multiply-baseline($multiplier) {
-  @include adjust-font-size-to($base-font-size * $multiplier); 
-  @include padding-leader(1, $base-font-size * $multiplier);
-}
-
 @include establish-baseline;
-
-h1 {
-  @include multiply-baseline(3); 
-}
-
-h2 {
-   @include multiply-baseline(1.5); 
-}
-
-p {
-  @include multiply-baseline(1); 
-}
 
 body {
   @include padding-leader;
@@ -26,10 +10,41 @@ body {
   font-family: "Verdana", "Sans-Serif";
 }
 
-footer {
-  @include padding-leader;  
+h1 {
+  @include multiply-baseline(3); 
+}
+
+h2 {
+  @include multiply-baseline(1.5); 
+}
+
+p {
+  @include padding-trailer; 
 }
 
 a {
   @include hover-link;
+}
+
+article {
+  aside {
+    @include padding-leader;  
+    span {
+      display: block;
+      text-align: center;
+    }
+  }  
+  div {
+    @include padding-leader;  
+  }
+  .month {
+    background: $darkest-color;
+  }
+  .year {
+    background: $darker-color;
+  }
+}
+
+footer {
+  @include padding-leader;  
 }

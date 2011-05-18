@@ -22,7 +22,7 @@ class Blog
         set :author, "Shanon McQuay"
         set :title,  "compactcode"
         set :url,    "compactcode.com"
-        set :date, lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
+        set :date,   lambda { |now| now } # Prevent date being converted into a string.
       end
 
       run toto
