@@ -7,6 +7,11 @@ $minor-accent-color:   #DADBB1;
 $accent-color:         #84BCDE;
 $major-accent-color:   #FB292D;
 
+body {
+  background: $dark-color;
+  color: $light-color;
+}
+
 nav a {
   color: $light-color;
 }
@@ -19,9 +24,8 @@ h2, h2 a {
   color: $accent-color;
 }
 
-body {
-  background: $dark-color;
-  color: $light-color;
+strong {
+  color: $lightest-color;  
 }
 
 a {

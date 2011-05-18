@@ -23,6 +23,7 @@ p {
 body {
   @include padding-leader;
   @include padding-trailer;
+  font-family: "Verdana", "Sans-Serif";
 }
 
 footer {
