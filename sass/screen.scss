@@ -1,7 +1,8 @@
 @import "base";
 @import "layout";
 @import "colour";
-@import "tooltip";
+@import "quote";
+@import "code";
 
 body {
   @include padding-leader;
@@ -32,13 +33,15 @@ a {
 }
 
 blockquote {
-  @include tooltip($minor-accent-color);
   margin-left: 2em;
   margin-right: 2em;
+  @include sexy-quote($light-color);
 }
 
 code {
-  padding-left: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  @include sexy-code($darker-color);
 }
 
 article {
@@ -47,7 +50,6 @@ article {
     text-align: center;    
   }  
   .month {
-    
     background: $darkest-color;
     @include border-top-radius(10px);
   }

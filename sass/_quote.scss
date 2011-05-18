@@ -1,14 +1,9 @@
-@import "compass";
-
-@mixin tooltip($background-color: #84BCDE, $foreground-color: contrast-color($background-color)) {
-	position:relative;
-	
-  @include padding-leader;
-  @include padding-trailer;
-  @include margin-trailer;  
+@mixin sexy-quote($background-color: black, $foreground-color: contrast-color($background-color)) {
   
-  padding-left: 2em;  
-  padding-right: 2em;  
+  display:block;
+  position:relative;
+  
+  padding: 1.5em;
 
   background: $background-color;
   color: $foreground-color;
@@ -16,7 +11,7 @@
 	@include border-radius(10px);
 	@include background-image(linear-gradient($background-color, darken($background-color, 15%)));
 	
-	&:before {
+  &:before {
   	content:"\00a0";
   	display:block;
   	position:absolute;
@@ -27,5 +22,8 @@
   	border:14px solid transparent;
   	border-top-color: darken($background-color, 15);
   }
+
+  // Ensures space is allocated for the before content.
+  @include margin-trailer;  
   
 }

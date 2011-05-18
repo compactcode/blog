@@ -1,0 +1,15 @@
+$default-box-shadow-inset: true;
+
+@mixin sexy-code($background-color: black) {
+  
+  display:block;
+  
+  padding: 0.8em;
+  
+  background: $background-color;
+  color: contrast-color($background-color);
+  
+  @include border-radius(4px);
+  @include single-box-shadow(darken($background-color, 10%), 0, 0, 7px, false, true)
+
+}
