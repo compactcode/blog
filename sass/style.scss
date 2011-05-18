@@ -10,6 +10,10 @@ body {
   font-family: "Verdana", "Sans-Serif";
 }
 
+nav ul {
+  @include horizontal-list;
+}
+
 h1 {
   @include multiply-baseline(3); 
 }
@@ -39,9 +43,11 @@ article {
   }
   .month {
     background: $darkest-color;
+    @include border-top-radius;
   }
   .year {
     background: $darker-color;
+    @include border-bottom-radius;
   }
 }
 

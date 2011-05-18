@@ -2,10 +2,6 @@
 @import "compass/reset";
 @import "blueprint/grid";
 
-nav ul {
-  @include horizontal-list;
-}
-
 #page {
   @include container;
   nav, header, footer {
