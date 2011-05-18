@@ -2,10 +2,10 @@
 title: Goodbye Wordpress
 date: 13/10/2010
 
-When I started this blog just over a year ago I made the rather foolish decision to host it on my own
-[Wordpress](http://wordpress.org/) instance. ~
+When I started this blog just over a year ago I made the decision to host it using my own
+[Wordpress](http://wordpress.org/) instance.
 
-I wasted hours of my time, spent hundreds of dollars and generally ended up more stressed than I ought to be.
+It was a choice that involved a lot of complexity yet failed to deliver the levels of customization I was really looking for.
 
 ** I wanted something personal **
 
@@ -30,7 +30,7 @@ lines of code which means that even my poor pea brain can actually understand it
 blogging tool, I can completely customize it. 
 
 The other advantage of toto is that it is written using Ruby, which means that hosting is a piece of cake. I can just
-create a free account on [heroku](http://heroku.com/) and publish articles without needing to worry about servers or
+create a free account on [Heroku](http://heroku.com/) and publish articles without needing to worry about servers or
 maintenance.
 
 ** I decided to use it **
