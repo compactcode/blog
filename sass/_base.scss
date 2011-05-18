@@ -1,6 +1,8 @@
 @import "compass";
 @import "compass/reset";
 
+@include establish-baseline;
+
 @mixin adjust-font-size($multiplier) {
   @include adjust-font-size-to($base-font-size * $multiplier); 
 }

@@ -2,8 +2,6 @@
 @import "layout";
 @import "colour";
 
-@include establish-baseline;
-
 body {
   @include padding-leader;
   @include padding-trailer;
@@ -30,6 +28,10 @@ p {
 
 a {
   @include hover-link;
+}
+
+blockquote, code {
+  padding-left: 2em;
 }
 
 article {
