@@ -1,7 +1,14 @@
 @import "compass";
 @import "compass/reset";
 
-@mixin multiply-baseline($multiplier) {
+@mixin adjust-font-size($multiplier) {
   @include adjust-font-size-to($base-font-size * $multiplier); 
+}
+
+@mixin adjust-padding-leader($multiplier) {
   @include padding-leader(1, $base-font-size * $multiplier);
+}
+
+@mixin adjust-padding-trailer($multiplier) {
+  @include padding-trailer(1, $base-font-size * $multiplier);
 }

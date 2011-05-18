@@ -15,11 +15,13 @@ nav ul {
 }
 
 h1 {
-  @include multiply-baseline(3); 
+  @include adjust-font-size(3); 
 }
 
 h2 {
-  @include multiply-baseline(1.5); 
+  @include adjust-padding-leader(1.5);
+  @include adjust-font-size(1.5); 
+  @include adjust-padding-trailer(1.5);
 }
 
 p {
@@ -31,26 +33,27 @@ a {
 }
 
 article {
-  aside {
-    @include padding-leader;  
-    span {
-      display: block;
-      text-align: center;
-    }
+  .month, .year {
+    display: block;
+    text-align: center;    
+    @include border-top-radius;
   }  
-  div {
-    @include padding-leader;  
-  }
   .month {
     background: $darkest-color;
-    @include border-top-radius;
   }
   .year {
     background: $darker-color;
-    @include border-bottom-radius;
   }
 }
 
 footer {
   @include padding-leader;  
+}
+
+@import "compass/layout/grid-background";
+
+
+body {
+  
+  @include baseline-grid-background;
 }
