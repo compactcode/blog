@@ -14,7 +14,7 @@
   color: $foreground-color;
 	
 	@include border-radius(10px);
-	@include background-image(linear-gradient($background-color, darken($background-color, 15)));
+	@include background-image(linear-gradient($background-color, darken($background-color, 15%)));
 	
 	&:before {
   	content:"\00a0";

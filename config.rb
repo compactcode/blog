@@ -1,5 +1,3 @@
-require 'compass-colors'
-
 http_path       = "/"
 
 sass_dir        = "sass"

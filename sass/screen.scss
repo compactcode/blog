@@ -47,6 +47,7 @@ article {
     text-align: center;    
   }  
   .month {
+    
     background: $darkest-color;
     @include border-top-radius(10px);
   }
