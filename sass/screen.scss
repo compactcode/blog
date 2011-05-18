@@ -24,6 +24,13 @@ h2 {
   @include adjust-padding-trailer(1.5);
 }
 
+article ul {
+  list-style: disc;
+  li {
+    margin-left: 2em;
+  }
+}
+
 article > div > p {
   @include padding-trailer; 
 }
