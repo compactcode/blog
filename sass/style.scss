@@ -20,6 +20,15 @@ p {
   @include multiply-baseline(1); 
 }
 
+body {
+  @include padding-leader;
+  @include padding-trailer;
+}
+
+footer {
+  @include padding-leader;  
+}
+
 a {
   @include hover-link;
 }
