@@ -1,0 +1,31 @@
+@import "compass";
+
+@mixin tooltip($background-color: #84BCDE, $foreground-color: contrast-color($background-color)) {
+	position:relative;
+	
+  @include padding-leader;
+  @include padding-trailer;
+  @include margin-trailer;  
+  
+  padding-left: 2em;  
+  padding-right: 2em;  
+
+  background: $background-color;
+  color: $foreground-color;
+	
+	@include border-radius(10px);
+	@include background-image(linear-gradient($background-color, darken($background-color, 15)));
+	
+	&:before {
+  	content:"\00a0";
+  	display:block;
+  	position:absolute;
+  	bottom:-28px;
+  	left:46px;
+  	width:0;
+  	height:0;
+  	border:14px solid transparent;
+  	border-top-color: darken($background-color, 15);
+  }
+  
+}
