@@ -14,3 +14,9 @@
 @mixin adjust-padding-trailer($multiplier) {
   @include padding-trailer(1, $base-font-size * $multiplier);
 }
+
+@import "icon/*.png";
+
+$icon-sprite-dimensions: true;
+
+@include all-icon-sprites;

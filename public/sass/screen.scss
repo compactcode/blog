@@ -8,24 +8,41 @@ body {
   @include padding-leader;
   @include padding-trailer;
   font-family: "Verdana", "Sans-Serif";
+  a {
+    @include hover-link;
+  }
 }
 
-nav > ul {
+nav ul {
   @include horizontal-list;
 }
 
-h1 {
-  @include adjust-font-size(3); 
+#title {
+  ul {
+    @include horizontal-list(2px, right);
+    padding-top: 0.8em; // Dirty hack alignment to be replaced with a vertical rhythm calculation.
+    .rss-link {
+      display: block;
+      @extend .icon-rss;
+    }
+    .twitter-link {
+      display: block;
+      @extend .icon-twitter;      
+    }
+    .linkedin-link {
+      display: block;
+      @extend .icon-linkedin;      
+    }
+  }
+  h1 {
+    @include adjust-font-size(3); 
+  }
 }
 
 h2 {
   @include adjust-padding-leader(1.5);
   @include adjust-font-size(1.5); 
   @include adjust-padding-trailer(1.5);
-}
-
-a {
-  @include hover-link;
 }
 
 article {

@@ -2,8 +2,16 @@
 
 #page {
   @include container;
-  nav, header, footer {
+  nav {
     @include column(24, true);
+  }
+  #title {
+    h1 {
+      @include column(20);
+    }
+    ul {
+      @include column(4, true);
+    }
   }
   article {
     header {
@@ -17,5 +25,8 @@
       @include column(20, true);
     }
     @include pie-clearfix;
+  }
+  footer {
+    @include column(24, true);
   }
 }
