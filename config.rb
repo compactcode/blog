@@ -1,9 +1,10 @@
 http_path       = "/"
 
-sass_dir        = "sass"
+project_path     = "public"
 
-css_dir         = "public/css"
-images_dir      = "public/images"
-javascripts_dir = "public/js"
+sass_dir        = "sass"
+css_dir         = "css"
+images_dir      = "images"
+javascripts_dir = "js"
 
 output_style = :compressed
