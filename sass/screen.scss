@@ -24,46 +24,49 @@ h2 {
   @include adjust-padding-trailer(1.5);
 }
 
-article ul {
-  list-style: disc;
-  li {
-    margin-left: 2em;
-  }
-}
-
-article > div > p {
-  @include padding-trailer; 
-}
-
 a {
   @include hover-link;
 }
 
-blockquote {
-  margin-left: 2em;
-  margin-right: 2em;
-  @include sexy-quote($light-color);
-}
-
-code {
-  margin-left: 2em;
-  margin-right: 2em;
-  @include sexy-code($darker-color);
-}
-
 article {
-  .month, .year {
-    display: block;
-    text-align: center;    
-  }  
-  .month {
-    background: $darkest-color;
-    @include border-top-radius(10px);
+  
+  aside {
+    .month, .year {
+      display: block;
+      text-align: center;    
+    }
+    .month {
+      background: $darkest-color;
+      @include border-top-radius(10px);
+    }
+    .year {
+      background: $darker-color;
+      @include border-bottom-radius(10px);
+    }
   }
-  .year {
-    background: $darker-color;
-    @include border-bottom-radius(10px);
+  
+  div {
+    ul {
+      list-style: disc;
+      li {
+        margin-left: 2em;
+      }
+    }    
+    p {
+      @include padding-trailer; 
+    }
+    blockquote {
+      margin-left: 2em;
+      margin-right: 2em;
+      @include sexy-quote($light-color);
+    }
+    code {
+      margin-left: 2em;
+      margin-right: 2em;
+      @include sexy-code($darker-color);
+    }
   }
+  
 }
 
 footer {
@@ -73,6 +76,5 @@ footer {
 @import "compass/layout/grid-background";
 
 body {
-  
   @include baseline-grid-background;
 }
