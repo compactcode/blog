@@ -82,7 +82,7 @@ article {
         margin-left: 2em;
       }
     }    
-    p {
+    > p {
       @include padding-trailer; 
     }
     blockquote {
@@ -96,7 +96,7 @@ article {
       @include sexy-code($darker-color);
     }
   }
-  
+   
 }
 
 footer {
