@@ -1,4 +1,8 @@
-dorothy
+Tools used to build this blog:
 =======
 
-A wonderful template for [toto](http://cloudhead.io/toto), the blogging engine.
+[ruby](http://www.ruby-lang.org/en/)
+[toto](http://cloudhead.io/toto)
+[html5](http://www.w3schools.com/html5/)
+[css3](http://www.w3schools.com/css3/)
+[compass](http://compass-style.org/)
