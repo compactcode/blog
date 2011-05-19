@@ -102,9 +102,3 @@ article {
 footer {
   @include padding-leader;  
 }
-
-@import "compass/layout/grid-background";
-
-body {
-  @include baseline-grid-background;
-}
