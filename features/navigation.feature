@@ -22,9 +22,3 @@ Feature: Users can navigate around the various pages
     Given I am on the home page
     And I follow "Archives" within "nav"
     Then I should be on the archive page
-
-  Scenario: The home page links to the rss feed
-    Given I am on the home page
-    And I follow "Subscribe" within "nav"
-    Then I should see "compactcode.com" within "feed"
-    And I should see "Shanon McQuay" within "author"
