@@ -13,6 +13,19 @@ body {
   }
 }
 
+#forkme {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  border: 0;
+  @extend .asset-forkme;
+}
+
+#avatar {
+  display: block;
+  @extend .asset-avatar;
+}
+
 nav ul {
   @include horizontal-list;
 }
@@ -23,15 +36,15 @@ nav ul {
     padding-top: 0.8em; // Dirty hack alignment to be replaced with a vertical rhythm calculation.
     .rss-link {
       display: block;
-      @extend .icon-rss;
+      @extend .asset-rss;
     }
     .twitter-link {
       display: block;
-      @extend .icon-twitter;      
+      @extend .asset-twitter;      
     }
     .linkedin-link {
       display: block;
-      @extend .icon-linkedin;      
+      @extend .asset-linkedin;      
     }
   }
   h1 {

@@ -15,8 +15,8 @@
   @include padding-trailer(1, $base-font-size * $multiplier);
 }
 
-@import "icon/*.png";
+@import "asset/*.png";
 
-$icon-sprite-dimensions: true;
+$asset-sprite-dimensions: true;
 
-@include all-icon-sprites;
+@include all-asset-sprites;
