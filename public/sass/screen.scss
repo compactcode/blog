@@ -3,6 +3,7 @@
 @import "colour";
 @import "quote";
 @import "code";
+@import "twilight";
 
 body {
   @include padding-leader;
@@ -90,10 +91,10 @@ article {
       margin-right: 2em;
       @include sexy-quote($light-color);
     }
-    code {
+    pre {
       margin-left: 2em;
       margin-right: 2em;
-      @include sexy-code($darker-color);
+      @include sexy-code(#141414); // Hack to match the twilight ultraviolet theme.
     }
   }
    

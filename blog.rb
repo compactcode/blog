@@ -17,6 +17,8 @@ class Blog
         r301 %r{/2009/(.*)},      'http://compacted.wordpress.com/2009/$1'
       end
       
+      use Rack::Codehighlighter, :ultraviolet, :markdown => true, :element => "pre>code", :pattern => /\A:::(\w+)\s*\n/, :theme => "twilight"
+      
       toto = Toto::Server.new do
         set :author, "Shanon McQuay"
         set :title,  "compactcode"
