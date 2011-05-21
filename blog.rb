@@ -1,8 +1,7 @@
 require 'rubygems'
 require 'bundler/setup'
 
-require 'toto'
-require 'rack-rewrite'
+Bundler.require(:default)
 
 class Blog
   def to_app
