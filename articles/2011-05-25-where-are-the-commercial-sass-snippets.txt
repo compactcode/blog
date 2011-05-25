@@ -1,0 +1,17 @@
+--- 
+title: Where are the commercial Sass snippets?
+date: 25/05/2011
+
+I'll be the first to admit that I don't have any real talent for producing beautiful, eye catching web sites. That means I need to rely on sites like [themeforrest](http://themeforest.net/category/site-templates) and [codecanyon](http://codecanyon.net/category/css) to provide me with the necessary creative inspiration.
+
+Lately I have been moving away from working with basic css, preferring more powerful tools like [Sass](http://sass-lang.com/) and [Compass](http://compass-style.org/) for authoring my stylesheets. 
+
+    :::css
+    .date .year {
+      @include rounded-corners;
+      @include drop-shadow; 
+    }
+
+These tools make it easier than ever to package css code into small reusable modules, the kind that could easily be sold on an online market place. Unfortunately I haven't seen anyone doing this and believe me I've looked.
+
+I think there could be a great opportunity for someone to develop and sell Sass snippets on a site like [codecanyon](http://codecanyon.net/category/css). I figure there must be plenty of other developers like me out there willing to buy.
